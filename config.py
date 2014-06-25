@@ -33,6 +33,8 @@ export:
 - PATH : "{PATH}:{APP_PATH}"
 ========================================
 
+Copyright (c) 2013 Rohit Rathi <rrathi.appdev@gmail.com>
+
 """
 
 __author__ = "Rohit Rathi"
