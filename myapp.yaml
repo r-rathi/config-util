@@ -1,0 +1,13 @@
+# Variables imported from the environment
+import:
+- HOME
+- PATH
+
+# Local/temp variables
+local:
+- APP_VERSION : "0.7"
+- APP_PATH    : "{HOME}/myapp-{APP_VERSION}/bin"
+
+# Variables exported to the environment
+export:
+- PATH : "{PATH}:{APP_PATH}"
